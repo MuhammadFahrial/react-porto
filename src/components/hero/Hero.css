@@ -1,0 +1,59 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18em;
+    color: rgb(20, 20, 20);
+}
+
+.hero-img .img {
+    background-image: url('../../assets/Aku.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border: 8px solid #0E2F56;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #118DF0;
+}
+
+.hero-text {
+    line-height: 0;
+    font-size: 32px;
+}
+
+.hero-text p {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.hero-text p.description {
+    font-weight: normal;
+    line-height: normal;
+    font-size: 15px;
+}
+
+.hero-btn {
+    display: flex;
+    font-size: 15px;
+    gap: 20px;
+}
+
+.btn-download,
+.btn-talk {
+    color: black;
+    border: 2px solid #0E2F56;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.btn-download:hover,
+.btn-talk:hover {
+    background-color: #0E2F56;
+    box-shadow: 0 0 10px #118DF0;
+    color: white;
+}

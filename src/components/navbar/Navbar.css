@@ -1,0 +1,32 @@
+.nav-bar,
+.nav-brand,
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 10vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 5em;
+}
+
+.nav-brand span {
+    color: #118DF0;
+}
+
+.nav-item,
+a {
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    color: #0E2F56;
+}
+
+.nav-item a:hover {
+    color: brown;
+}
